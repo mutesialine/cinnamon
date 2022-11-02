@@ -4,24 +4,25 @@ export default function Text({ variant, title, subtitle }) {
 
   switch (variant) {
     case "bigger": {
-      titleStyles ="leading-[58px]  font-bold text-[40px] text-white lg:text-[80px] lg:leading-[105px]";
-      subTitleStyles = "text-twenty lg:w-3/5";
+      titleStyles =
+        "leading-[58px] font-normal font-montBold text-[40px] text-[#F6F6F6] lg:text-[80px] lg:leading-[105px]";
+      subTitleStyles = "leading-[30px] font-[600] font-sans text-[18px] text-[#CFCFCF] lg:w-3/5";
       break;
     }
     case "medium": {
-      titleStyles = "leading-[44px]  text-[32px] font-bold text-black ";
-      subTitleStyles = "text-[#525252]  text-lg leading-[26px]";
+      titleStyles = "leading-[44px]  text-[32px] font-montBold text-[#222222] ";
+      subTitleStyles = "text-[#525252]  text-base leading-[26px] font-sans";
       break;
     }
     case "Base": {
-      titleStyles = "text-[20px] text-white font-bold leading-[30px]";
-      subTitleStyles = "text-base leading-[20px] text-[#CFCFCF]";
+      titleStyles = "text-[20px] text-white font-montBold leading-[30px]";
+      subTitleStyles = "text-base leading-[26px] text-[#CFCFCF] font-sans";
       break;
     }
   }
   return (
-    <div className="flex flex-col gap-4 w-full ">
-      <h2 className={titleStyles}>{title}</h2>
+    <div className="flex flex-col gap-6  ">
+      <h1 className={`${titleStyles} whitespace-pre-line`}>{title}</h1>
       <p className={subTitleStyles}>{subtitle}</p>
     </div>
   );

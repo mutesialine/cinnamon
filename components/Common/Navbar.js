@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Button from "./Button";
 
-export default function Navbar(){
+export default function Navbar() {
   return (
-    <div className="px-4 lg:px-6 py-6 z-99 sticky top-0 flex  bg-fullblack justify-between items-center">
+    <div className="px-4 lg:px-6 py-6 z-99 sticky top-0 flex justify-between items-center">
       <img
         className="w-40 h-4"
         src="	https://cinnamon.agency/_next/static/media/logo-white.97f0c2c8.svg"
