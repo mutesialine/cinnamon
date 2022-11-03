@@ -22,7 +22,7 @@ module.exports = {
         montBold: ["Montbold", "cursive"],
         montSemibold: ["MontSemibold", "cursive"],
         sans: "'Mont', san-serif",
-        montHeavy: ["Montheavy", "cursive"]
+        montHeavy: ["Montheavy", "cursive"],
       },
     },
   },

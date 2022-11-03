@@ -19,6 +19,7 @@ export default function Text({ variant, title, subtitle }) {
       subTitleStyles = "text-base leading-[26px] text-[#CFCFCF] font-sans";
       break;
     }
+    
   }
   return (
     <div className="flex flex-col gap-6  ">
