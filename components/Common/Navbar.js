@@ -66,7 +66,7 @@ export default function Navbar() {
           <Button text="Contact us" />
         </div>
         {scrolling ? (
-          <img
+          <img className="w-8 h-8 block lg:hidden"
             src="	https://cinnamon.agency/_next/static/media/mobile-menu-icon-dark.d2469ff9.svg
           "
             alt="white icon"

@@ -5,7 +5,7 @@ export default function Fiona(){
     <div className="max-w-6xl mx-auto px-6 pt-20   lg:pt-20">
       <CardContainer
         color="bg-[#52247f]"
-        pic="/image/optimal.webp"
+        pic="/image/fiona.webp"
         paragraphy1="PRODUCTION DESIGN"
         paragraphy2="WEB DEVELOPMENT"
       />
