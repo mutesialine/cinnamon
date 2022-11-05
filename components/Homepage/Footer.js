@@ -103,12 +103,12 @@ export default function Footer(){
             <p>hello@cinnamon.agency</p>
           </div>
         </div>
-        <div className=" flex flex-col-reverse  lg:flex lg:justify-between lg:pt-8  lg:pb-8">
+        <div className="  flex flex-col-reverse     lg:justify-between lg:pt-8  lg:pb-8">
           <div className=" pt-6 py-2 lg:pt-0  flex gap-24 lg:gap-4 tex-base  text-[#a1a1a1] font-sans">
             <p>© 2022 Cinnamon</p>
             <p>Privacy Policy</p>
           </div>
-          <div className="flex justify-between lg:justify-start px-14 lg:px-0 gap-6   py-6 lg:py-0 border-y border-y-[#8f8f8f66] border-solid lg:border-none">
+          <div className="flex justify-between lg:justify-start px-14 lg:px-0 gap-6 py-6 lg:py-0 border-y border-y-[#8f8f8f66] border-solid lg:border-none">
             <img src="/icons/linkedln.svg" alt="linkedin" />
             <img src="/icons/cinnamonbe.svg" alt="behance" />
             <img src="/icons/instagram.svg" alt="instagram" />

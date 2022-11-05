@@ -3,13 +3,13 @@ import Text from "../Common/Text";
 export default function Team() {
   return (
     <div className=" relative max-w-full bg-[#f6f6f6] ">
-      <div className=" max-w-6xl  lg:grid grid-cols-2 gap-8 lg:items-center mx-auto py-24 px-6">
-        <p className=" text-[40px] w-1/4 lg:w-full leading-[56px] lg:text-[54px] font-montBold lg:leading-[72px]">
+      <div className=" max-w-6xl  space-y-4 lg:space-y-0 lg:grid grid-cols-2 gap-8 lg:items-center mx-auto py-24 lg:py-32 px-6">
+        <p className=" text-[40px] w-1/4  lg:w-full leading-[56px] lg:text-[54px] font-montBold lg:leading-[72px]">
           Agile Team<br/>
           on demand
         </p>
         <img
-          className="w-[275px] h-[197px] block lg:hidden"
+          className="w-[196px] h-[128px] pt-2 block lg:hidden"
           src="/image/team.webp"
           alt="team and demand"
         />

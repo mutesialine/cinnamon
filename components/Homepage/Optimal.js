@@ -2,7 +2,7 @@ import CardContainer from "../Common/CardContainer";
 import Text from "../Common/Text";
 export default function Optimal(){
   return (
-    <div className="max-w-6xl mx-auto px-6 lg:pt-20">
+    <div className="max-w-6xl mx-auto px-6 pt-2 lg:pt-20">
       <CardContainer
         color="bg-light-green"
         pic="/image/optimal.webp"
