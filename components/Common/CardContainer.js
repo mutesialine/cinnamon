@@ -4,7 +4,7 @@ export default function CardContainer({color,paragraphy1, paragraphy2, paragraph
     <>
       <div className={`${color} overflow-hidden  group`}>
         <img
-          className="group-hover:scale-105 transition-all h-full duration-300"
+          className="group-hover:scale-105 transition-all  duration-300"
           src={pic}
           alt="optimal image"
         />
