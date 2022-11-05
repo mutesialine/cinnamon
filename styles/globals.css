@@ -2,29 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family:"Montbold";
+  font-family: "Montbold";
   src: url("/fonts/MontBold.woff");
- 
 }
 @font-face {
- font-family:"Montheavy";
+  font-family: "Montheavy";
   src: url("/fonts/MontHeavy.woff");
 }
 @font-face {
-  font-family:"Mont" ;
- src:url("/fonts/MontRegular.woff");
+  font-family: "Mont";
+  src: url("/fonts/MontRegular.woff");
 }
 @font-face {
-  font-family:"MontSemibold ";
- src: url("/fonts/MontSemiBold.woff2");
+  font-family: "MontSemibold";
+  src: url("/fonts/MontSemiBold.woff2");
 }
 
-
-/* 
- src:url(/public/fonts/MontBold.woff2);
-  src:url(/public/fonts/MontHeavy.woff);
-  src: url(/public/fonts/MontHeavy.woff2);
- 
-  src: url(/public/fonts/MontRegular.woff2);
-  
-  src:url(/public/fonts/MontSemiBold.woff2) */
+.cardScroll::-webkit-scrollbar {
+  display: none;
+}

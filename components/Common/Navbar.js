@@ -24,7 +24,7 @@ export default function Navbar() {
         scrolling ? "bg-white" : "bg-transparent"
       } `}
     >
-      <div className="px-4 lg:px-6 py-6 max-w-6xl   mx-auto  flex justify-between items-center ">
+      <div className="px-6 py-6 max-w-6xl  mx-auto  flex justify-between items-center ">
         {scrolling ? (
           <img className="w-40 h-5" src="/image/logo-dark..svg" alt="logo" />
         ) : (

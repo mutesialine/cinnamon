@@ -2,15 +2,18 @@ import Button from "../Common/Button";
 import Text from "../Common/Text";
 export default function Team() {
   return (
-    <div className="max-w-full bg-[#f6f6f6] ">
-      <div className=" max-w-6xl  lg:flex lg:items-center justify-bettween mx-auto py-24 px-6">
-        <Text variant="medium" title={"Agile Team \n and Demand"} />
+    <div className=" relative max-w-full bg-[#f6f6f6] ">
+      <div className=" max-w-6xl  lg:grid grid-cols-2 gap-8 lg:items-center mx-auto py-24 px-6">
+        <p className=" text-[40px] w-1/4 lg:w-full leading-[56px] lg:text-[54px] font-montBold lg:leading-[72px]">
+          Agile Team<br/>
+          on demand
+        </p>
         <img
           className="w-[275px] h-[197px] block lg:hidden"
           src="/image/team.webp"
           alt="team and demand"
         />
-        <div className=" flex flex-col gap-6 ">
+        <div className=" flex flex-col lg:w-1/2 gap-6 ">
           <Text
             variant="medium"
             subtitle="By hiring and managing talented people with skills specific to your project, we build you a team that's accomplished, agile and scalable in both directions."
@@ -18,7 +21,7 @@ export default function Team() {
           <Button text="See How It Works" />
         </div>
       </div>
-      <div className="hidden lg:flex justify-end">
+      <div className="hidden  absolute bottom-0 right-0 lg:block">
         <img
           className="w-[275px] h-[197px] "
           src="/image/team.webp"

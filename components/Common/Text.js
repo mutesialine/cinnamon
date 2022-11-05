@@ -10,7 +10,7 @@ export default function Text({ variant, title, subtitle }) {
       break;
     }
     case "medium": {
-      titleStyles = "leading-[44px]  text-[32px] font-montBold text-[#222222] ";
+      titleStyles = "leading-[44px]  text-[32px]  font-montBold text-[#222222] ";
       subTitleStyles = "text-[#525252]  text-base leading-[26px] font-sans";
       break;
     }
@@ -19,7 +19,7 @@ export default function Text({ variant, title, subtitle }) {
       subTitleStyles = "text-base leading-[26px] text-[#CFCFCF] font-sans";
       break;
     }
-    
+
   }
   return (
     <div className="flex flex-col gap-6  ">

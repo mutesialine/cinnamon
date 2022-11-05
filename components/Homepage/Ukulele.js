@@ -8,6 +8,7 @@ export default function Ukulele() {
         pic="/image/ukule.webp"
         paragraphy1="PRODUCTION DESIGN"
         paragraphy2="WEB DEVELOPMENT"
+        paragraphy3="QUARITY ASSURANCE"
       />
       <div className="pt-6 lg:w-3/5">
         <Text

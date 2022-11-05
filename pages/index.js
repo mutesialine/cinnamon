@@ -1,3 +1,5 @@
+import ContactUs from "../components/Homepage/ContactUs";
+import Tech from "../components/Homepage/Tech";
 import Services from "../components/Homepage/Services";
 import Fiona from "../components/Homepage/Fiona";
 import Hero from "../components/Homepage/Hero";
@@ -9,6 +11,8 @@ import AboutUs from "../components/Homepage/AboutUs";
 import College from "../components/Homepage/College";
 import Growing from "../components/Homepage/Growing";
 import Navbar from "../components/Common/Navbar";
+import Footer from "../components/Homepage/Footer";
+
 
 export default function Home() {
   return (
@@ -24,6 +28,9 @@ export default function Home() {
       <AboutUs/>
       <College/>
       <Growing/>
+      <Tech/>
+      <ContactUs/>
+      <Footer/>
 
     </>
   );

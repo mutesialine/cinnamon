@@ -1,12 +1,14 @@
 import Text from "../Common/Text";
-export default function Communication(){
+export default function Communication() {
   return (
-    <div className="max-w-6xl mx-auto pt-20  pb-24 px-6 lg:grid grid-cols-2 items-center lg:justify-end">
-      <Text
-        variant="medium"
-        title="They’re consistent, and the communication is good."
-        subtitle="When I have a deadline, they would work extra hours on the weekend and after hours. Cinnamon gives the impression of being a smaller team that’s focused on customers."
-      />
+    <div className="max-w-6xl mx-auto pt-20  pb-24 px-6 lg:grid grid-rows-4 items-center ">
+      <div className="w-4/5">
+        <Text
+          variant="medium"
+          title="They’re consistent, and the communication is good."
+          subtitle="When I have a deadline, they would work extra hours on the weekend and after hours. Cinnamon gives the impression of being a smaller team that’s focused on customers."
+        />
+      </div>
       <div className="  hidden lg:block">
         <img
           className="w-[200px] h-16"
@@ -14,7 +16,7 @@ export default function Communication(){
           alt="pinglogo"
         />
       </div>
-      <div className="pt-24 lg:flex lg:space-x-8  lg:col-span-2 ">
+      <div className="pt-24 lg:pt-0 lg:flex lg:space-x-8  lg:col-span-2 ">
         <img className="w-16" src="/image/GarinProfile.webp" alt="profile" />
 
         <div>
@@ -22,7 +24,7 @@ export default function Communication(){
           <p className="text-base text-[#525252] font-sans ">CEO, ping</p>
         </div>
       </div>
-      <div className="flex space-x-14 pt-12">
+      <div className="flex gap-14 pt-12 lg:pt-0">
         <img
           className="w-12 h-7"
           src="/image/arrow-left.webp"
@@ -34,7 +36,7 @@ export default function Communication(){
           alt="arrow right"
         />
       </div>
-      <div className="flex space-x-3 items-center pt-12">
+      <div className="flex gap-3 items-center pt-12 lg:pt-0">
         <img
           className="w-2 h-3"
           src="/icons/arrowRight2.svg"
@@ -46,4 +48,4 @@ export default function Communication(){
       </div>
     </div>
   );
-  }
+}

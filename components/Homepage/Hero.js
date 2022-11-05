@@ -4,7 +4,7 @@ import Navbar from "../Common/Navbar";
 export default function Hero() {
   return (
     <div className="max-w-full  h-full  bg-fullblack bg-[url(/image/noise.png)] ">
-      <div className=" max-w-6xl mx-auto text-primary pt-24">
+      <div className=" max-w-6xl mx-auto text-primary pt-20">
         <div className="pt-0 lg:pt-[118px] pb-32   mb-28  px-6 mx-auto space-y-8   ">
           <Text
             variant="bigger"

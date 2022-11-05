@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth:{
+        large:"1168px"
+      },
       backgroundColor: {
         fullblack: "#1C1C1C",
         "light-green": "#91f1c3",
@@ -25,6 +28,7 @@ module.exports = {
         montHeavy: ["Montheavy", "cursive"],
       },
     },
+  
   },
   plugins: [],
 };

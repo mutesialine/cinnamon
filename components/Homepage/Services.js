@@ -3,9 +3,11 @@ import Text from "../Common/Text";
 export default function Services(){
   return (
     <div className="max-w-full h-full bg-fullblack bg-[url(/image/noise.png)]">
-      <div className="max-w-6xl mx-auto flex flex-col lg:grid grid-cols-2 gap-4 lg:gap-0 pt-24 px-6 lg:px-40">
-        <Text variant="bigger" title="Our services" />
-        <div className="flex flex-col lg:grid grid-cols-2 gap-20  pb-24 w-full">
+      <div className="max-w-6xl mx-auto  space-y-4  lg:flex justify-between  pt-24 lg:pt-32 px-6 ">
+        <h2 className=" text-[40px] lg:text-[54px] leading-[72px] text-white font-montBold">
+          Our services
+        </h2>
+        <div className="flex flex-col lg:grid grid-cols-2 gap-6 lg:gap-16 lg:w-1/2 pb-24  lg:pb-32">
           <div className="flex flex-col space-y-6">
             <img className="w-12" src="/icons/icon1.webp" alt="" />
             <Text
