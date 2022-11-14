@@ -12,7 +12,7 @@ export default function Tech(){
     
       <div className=" cardScroll flex gap-8 overflow-x-auto lg:overflow-hidden">
         <CardBlog
-          pic="https://cinnamon.agency/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6mf4aqitzrkt%2F4z4OPjERGBRoMzBhMFKHPE%2Fd29f2e92e90c78f6427c1eba8517b9ae%2FFreelance_VS._Agency_blog_illustration.png&w=1920&q=75"
+          pic="/image/zagrebcity.webp"
           category="SALES"
           name="Matija Bermanec & Lorena Ujević"
           date="2022-10-3"
@@ -20,7 +20,7 @@ export default function Tech(){
           desc="Differences in Hiring an Agency vs. Freelancers 2.0"
         />
         <CardBlog
-          pic="https://cinnamon.agency/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6mf4aqitzrkt%2F3zWnPZ05ZNw8AmNrhgFfW%2Fd74e0c4a8f8a8a117bbb3094fc296284%2FFlutter_Template.png&w=1920&q=75"
+          pic="/image/new-yorkcity.webp"
           category="DEVELOPMENT"
           name="Samantha Holstead"
           date="2022-10-13"
@@ -28,7 +28,7 @@ export default function Tech(){
           desc="Cinnamon Flutter Template Overview"
         />
         <CardBlog
-          pic="https://cinnamon.agency/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6mf4aqitzrkt%2F24GZhGCgX2qB0dHVfXOpPt%2F91d8876c0bc4ae8790cc8e6d61c66192%2FTinder_blog.png&w=1920&q=75"
+          pic="/image/zagrebcity.webp"
           category="DESIGN"
           name="Jan Marin"
           date="2022-10-09"
